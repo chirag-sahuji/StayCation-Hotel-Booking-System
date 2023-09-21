@@ -1,0 +1,78 @@
+.image-container{
+    background-image: url('../../images/photo-1584132869994-873f9363a562.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7%;
+    margin-right: 7%;
+    border-radius: 20px;
+    position: relative;
+}
+
+.image-text{
+    color: #fff;
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.headerSearch{
+    height: 60px;
+    background-color: white;
+    border: 3px solid rgb(102, 178, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 10px;
+    position:absolute;
+    bottom: -30px;
+    width: 100%;
+    max-width: 1024px;
+}
+.headerSearchInput{
+    border: none;
+    outline: none;
+}
+.headerSearchText{
+    cursor:pointer 
+}
+.date{
+    position:absolute;
+    top:60px;
+    right: 400px;
+    z-index: 2;
+}
+.options{
+    z-index: 2;
+    position:absolute;
+    top:60px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.4);
+    background-color: #ffffff;
+}
+.optionItem{
+    width: 14em;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.optionCounter{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    font-size:0.75em;
+    color:#000000
+}
+.optionCounterButton{
+    width: 2em;
+    height: 2em;
+    border : 1px solid rgb(102, 178, 255);
+    color: rgb(102, 178, 255);
+    cursor: pointer;
+    background-color: #ffffff;
+}
+.optionCounterButton:disabled{
+    cursor:not-allowed;
+}

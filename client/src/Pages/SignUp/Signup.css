@@ -1,0 +1,11 @@
+.errorMessage{
+    font-size: small !important;
+    color: #ff0000;
+    padding-left: 10px;
+}
+.invalid{
+    border: 1px solid #ff0000 !important;
+}
+.signup-col{
+    padding-left: 40px;
+}
